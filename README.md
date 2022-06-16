@@ -80,6 +80,15 @@ When to Fly is an app that tracks historical flight data within the past year to
 ### [BONUS] Interactive Prototype
 
 ## Schema 
+#### Flight
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| originIataCode | String | IATA for user's departing location |
+| destinationIataCode | String | IATA for user's arrival location |
+| departureDate | String | the date on which the traveler will depart from the origin to go to the destination |
+| currencyCode | String | the preferred currency for display |
+| oneWay | Boolean | true to get price metrics for a one way trip, false to get price metrics for a round trip |
+
 #### Traveler
 | Property | Type | Description |
 | -------- | -------- | -------- |

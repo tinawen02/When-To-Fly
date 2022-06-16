@@ -80,10 +80,26 @@ When to Fly is an app that tracks historical flight data within the past year to
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
+#### Traveler
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| savedFlights | Array<Flight> | the user's saved flights |
+| name     | String     | user's name |
+| phoneNumber | Number | user's phone number |
+
+
 ### Networking
-- [Add list of network requests by screen ]
+#### List of network requests by screen
+- User Flight Screen
+    - (Read/GET) Query all flights the traveler saved
+    - (Delete) Delete a flight
+- User Flight Screen
+    - (Read/GET) Query all flights the traveler saved
+    - (Delete) Delete a flight
+- User Flight Screen
+    - (Read/GET) Query all flights the traveler saved
+    - (Delete) Delete a flight
+
+
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
